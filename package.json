@@ -7,6 +7,10 @@
     "cli",
     "todo"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:PavelNaydanov/todos-cli.git"
+  },
   "bin": {
     "todos": "./index.js"
   },
