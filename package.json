@@ -1,0 +1,21 @@
+{
+  "name": "pn-todos-cli",
+  "version": "1.0.0",
+  "description": "Command line instrument that will manage my tasks",
+  "main": "index.js",
+  "keywords": [
+    "cli",
+    "todo"
+  ],
+  "bin": {
+    "todos": "./index.js"
+  },
+  "author": "Pavel Naydanov",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.1",
+    "conf": "^11.0.1"
+  },
+  "type": "module"
+}
